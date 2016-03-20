@@ -41,16 +41,13 @@
       <script>scripts\sc_PlayerDeath.gml</script>
       <script>scripts\sc_DamagePlayer.gml</script>
       <script>scripts\sc_PlayerCreation.gml</script>
-<<<<<<< HEAD
       <scripts name="Inventory">
         <script>scripts\sc_ItemDatabase.gml</script>
         <script>scripts\sc_ItemPickup.gml</script>
         <script>scripts\sc_ITEMPICKIPTESTING.gml</script>
         <script>scripts\sc_DrawInventory.gml</script>
       </scripts>
-=======
       <script>scripts\sc_PlayerHealthModifier.gml</script>
->>>>>>> 18e3372dbff15c1c379f394e0ab6209c52d68683
     </scripts>
     <scripts name="Gui">
       <script>scripts\sc_DrawHealth.gml</script>
