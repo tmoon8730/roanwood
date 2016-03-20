@@ -8,10 +8,14 @@
   <sprites name="sprites">
     <sprites name="Environment">
       <sprite>sprites\s_Box</sprite>
-      <sprite>sprites\s_Bush</sprite>
       <sprites name="Tiles_Grass">
         <sprite>sprites\s_GrassA</sprite>
         <sprite>sprites\s_GrassB</sprite>
+      </sprites>
+      <sprites name="Trees">
+        <sprite>sprites\s_TreeA</sprite>
+        <sprite>sprites\s_TreeB</sprite>
+        <sprite>sprites\s_Log</sprite>
       </sprites>
     </sprites>
     <sprites name="Player">
@@ -41,16 +45,13 @@
       <script>scripts\sc_PlayerDeath.gml</script>
       <script>scripts\sc_DamagePlayer.gml</script>
       <script>scripts\sc_PlayerCreation.gml</script>
-<<<<<<< HEAD
       <scripts name="Inventory">
         <script>scripts\sc_ItemDatabase.gml</script>
         <script>scripts\sc_ItemPickup.gml</script>
         <script>scripts\sc_ITEMPICKIPTESTING.gml</script>
         <script>scripts\sc_DrawInventory.gml</script>
       </scripts>
-=======
       <script>scripts\sc_PlayerHealthModifier.gml</script>
->>>>>>> 18e3372dbff15c1c379f394e0ab6209c52d68683
     </scripts>
     <scripts name="Gui">
       <script>scripts\sc_DrawHealth.gml</script>
@@ -68,7 +69,6 @@
     <object>objects\o_Player</object>
     <object>objects\o_Box</object>
     <object>objects\o_Enemy</object>
-    <object>objects\o_Bush</object>
     <objects name="Loot">
       <object>objects\o_Chest</object>
       <object>objects\o_EmeraldRing</object>
@@ -77,6 +77,11 @@
       <object>objects\o_Loot</object>
     </objects>
     <object>objects\o_Boar</object>
+    <objects name="Trees">
+      <object>objects\o_TreeA</object>
+      <object>objects\o_TreeB</object>
+      <object>objects\o_Log</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_Test</room>
