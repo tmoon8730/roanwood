@@ -129,3 +129,19 @@ if(mouse_check_button_released(mb_right))
     {
         sprite_index = s_PlayerIdle;
     }
+    
+//Tempory Farming Hotkeys
+globalvar drawHoloBed;
+global.drawHoloBed = false;
+if(keyboard_check(ord('B')))
+{
+    if(global.containsBed = true)
+    {
+        global.drawHoloBed = true;
+        if (mouse_check_button(mb_left))
+        {
+            instance_create(o_Player.x+50,o_Player.y-100,o_Bed);
+        }
+    }    
+}
+
