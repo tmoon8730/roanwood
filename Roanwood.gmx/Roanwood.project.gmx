@@ -8,11 +8,11 @@
   <sprites name="sprites">
     <sprites name="Environment">
       <sprite>sprites\s_Box</sprite>
-      <sprite>sprites\s_Bush</sprite>
       <sprites name="Tiles_Grass">
         <sprite>sprites\s_GrassA</sprite>
         <sprite>sprites\s_GrassB</sprite>
       </sprites>
+      <sprite>sprites\s_TreeA</sprite>
       <sprite>sprites\s_Boulder</sprite>
       <sprite>sprites\s_Rock</sprite>
       <sprite>sprites\s_Log</sprite>
