@@ -66,6 +66,9 @@
     <script>scripts\sc_BoulderBreak.gml</script>
     <script>scripts\sc_TreeBreak.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\f_InvFont</font>
+  </fonts>
   <objects name="objects">
     <object>objects\o_Player</object>
     <object>objects\o_Enemy</object>
