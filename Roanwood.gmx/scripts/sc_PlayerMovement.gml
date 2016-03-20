@@ -91,6 +91,7 @@ if(keyboard_check_pressed(vk_tab))
 //Handles sword attack on mouse click spriting
 if (mouse_check_button(mb_left))
     {
+        speed = 0;
         sprite_index = s_PlayerAttack;
     }
 if(mouse_check_button_released(mb_left))
@@ -102,6 +103,27 @@ if(mouse_check_button_released(mb_left))
 if (mouse_check_button(mb_right))
     {
         sprite_index = s_PlayerBlock;
+        
+        //slows the player when moving and blocking
+        if(vspeed != 0 || hspeed !=0)
+        {
+            if(global.p_face == "up")
+            {
+                vspeed +=3;
+            }
+            if(global.p_face = "down")
+            {
+                vspeed -=3;
+            }
+            if(global.p_face = "right")
+            {
+                hspeed +=3;
+            }
+            if(global.p_face = "left")
+            {
+                hspeed -=3;
+            }
+        }
     }
 if(mouse_check_button_released(mb_right))
     {

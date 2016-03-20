@@ -56,7 +56,11 @@
     <instance objName="o_Box" x="224" y="256" name="inst_725D263D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_Enemy" x="512" y="672" name="inst_7C62ADE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_Enemy" x="768" y="576" name="inst_F8A30F3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+<<<<<<< HEAD
     <instance objName="o_TreeA" x="704" y="288" name="inst_8AD5FCC7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+=======
+    <instance objName="o_TreeA" x="736" y="288" name="inst_8AD5FCC7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+>>>>>>> remotes/EmperorMoose/roanwood/master
     <instance objName="o_TreeA" x="352" y="800" name="inst_7B8FCFE5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_Chest" x="32" y="160" name="inst_3FC2673A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_EmeraldRing" x="384" y="96" name="inst_525A2854" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -78,7 +82,11 @@
     <instance objName="o_Boar" x="1760" y="1856" name="inst_698190CA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_TreeA" x="160" y="704" name="inst_1E767502" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_TreeA" x="544" y="992" name="inst_71D1BEE0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+<<<<<<< HEAD
     <instance objName="o_TreeA" x="992" y="288" name="inst_04DC10C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+=======
+    <instance objName="o_TreeA" x="960" y="448" name="inst_04DC10C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+>>>>>>> remotes/EmperorMoose/roanwood/master
     <instance objName="o_TreeA" x="800" y="64" name="inst_4B5C08F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_TreeA" x="0" y="800" name="inst_420802B9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_TreeA" x="736" y="1216" name="inst_49E582A6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -102,6 +110,10 @@
     <instance objName="o_Enemy" x="1728" y="1472" name="inst_B6EEDE2F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_Enemy" x="1472" y="1600" name="inst_0DF23FA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_Enemy" x="1568" y="1472" name="inst_1BB7F480" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_Boulder" x="608" y="96" name="inst_03983BD3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_Boulder" x="704" y="96" name="inst_8A791182" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_Boulder" x="704" y="160" name="inst_E65D5348" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_Boulder" x="608" y="160" name="inst_631FF88B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="b_GroundGrassB" x="0" y="0" w="50" h="50" xo="0" yo="0" id="10000001" name="inst_96209A8C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

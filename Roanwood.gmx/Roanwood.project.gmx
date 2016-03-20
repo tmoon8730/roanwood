@@ -12,7 +12,13 @@
         <sprite>sprites\s_GrassA</sprite>
         <sprite>sprites\s_GrassB</sprite>
       </sprites>
+<<<<<<< HEAD
       <sprite>sprites\s_TreeA</sprite>
+=======
+      <sprite>sprites\s_Boulder</sprite>
+      <sprite>sprites\s_Rock</sprite>
+      <sprite>sprites\s_Log</sprite>
+>>>>>>> remotes/EmperorMoose/roanwood/master
     </sprites>
     <sprites name="Player">
       <sprite>sprites\s_PlayerIdle</sprite>
@@ -60,11 +66,12 @@
       <script>scripts\sc_BoarAI.gml</script>
       <script>scripts\sc_BoarDamage.gml</script>
     </scripts>
+    <script>scripts\sc_BoulderBreak.gml</script>
+    <script>scripts\sc_TreeBreak.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\o_TreeA</object>
     <object>objects\o_Player</object>
-    <object>objects\o_Box</object>
     <object>objects\o_Enemy</object>
     <objects name="Loot">
       <object>objects\o_Chest</object>
@@ -74,6 +81,13 @@
       <object>objects\o_Loot</object>
     </objects>
     <object>objects\o_Boar</object>
+    <objects name="Environment">
+      <object>objects\o_TreeA</object>
+      <object>objects\o_Box</object>
+      <object>objects\o_Boulder</object>
+      <object>objects\o_Rock</object>
+      <object>objects\o_Log</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_Test</room>
