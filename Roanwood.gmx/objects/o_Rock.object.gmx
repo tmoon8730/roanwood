@@ -48,7 +48,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>sc_ItemPickup(global.items[0,0]);
+            <string>sc_ItemPickup(global.items[0,0],global.items[0,2]);
 instance_destroy();
 </string>
           </argument>

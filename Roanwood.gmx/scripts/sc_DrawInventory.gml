@@ -1,13 +1,18 @@
 //Draws the players inventory
 draw_set_font(f_InvFont);
 j = 0;
+draw_sprite(s_HotBar, 0, 250, 718);
 for(i=250;i<=745;i=i+5)
 {
     draw_set_colour(c_black);
-    draw_rectangle(i, 689, i+45, 734, false);
+    //draw_rectangle(i, 689, i+45, 734, false);
     //Numbers for inventory
     draw_set_colour(c_gray);
-    draw_text(i+30,720,global.p_Inventory[j,1]);
+    if(global.p_Inventory[j,2] != "")
+    {
+        draw_sprite(global.p_Inventory[j,2], 0, i+7, 722);
+    }
+    draw_text(i+32,749,global.p_Inventory[j,1]);
     j++;
     i=i+45;
 }
