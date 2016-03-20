@@ -15,5 +15,8 @@ i_maxInvSlots = 9;
 //Creates the Inventory array
 for(i=0; i<= i_maxInvSlots; i+=1)
     {
-        global.p_Inventory[i,0] = "";
+        for(n=0; n<= i_maxInvSlots; n+=1)
+        {
+            global.p_Inventory[i,n] = "";
+        }
     }
