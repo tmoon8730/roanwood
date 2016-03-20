@@ -1,3 +1,4 @@
+//Test code to add items to the players inventory
 if (keyboard_check_pressed(ord('Z')))
     {
         sc_ItemPickup(global.items[0,0]);
