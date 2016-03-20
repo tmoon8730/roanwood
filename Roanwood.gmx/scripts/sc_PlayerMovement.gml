@@ -4,13 +4,13 @@
 //Keyboard_check triggers for each step the key is held.
 //p_face used to track direction that the player is facing.
 
-
+global.p_face = "null";
 
 var movementSpeed = 0.3;
 
 if (keyboard_check(ord('A')))
     {
-        global.p_face = "right";
+        p_face = "right";
         hspeed = -6;
         
         // Basic animation stuff
@@ -23,7 +23,7 @@ if (keyboard_check(ord('A')))
     }
 if (keyboard_check(ord('D')))
     {
-        global.p_face = "left";
+        p_face = "left";
         hspeed = 6;
         image_speed = movementSpeed;
         if(image_index >=3){
@@ -32,7 +32,7 @@ if (keyboard_check(ord('D')))
     }
 if (keyboard_check(ord('W')))
     {
-        global.p_face = "up";
+        p_face = "up";
         vspeed = -6;
         image_speed = movementSpeed;
         if(image_index < 6 || image_index = 9){
@@ -41,7 +41,7 @@ if (keyboard_check(ord('W')))
     }
 if (keyboard_check(ord('S')))
     {
-        global.p_face = "down";
+        p_face = "down";
         vspeed = 6;
         image_speed = movementSpeed;
         if(image_index < 9 || image_index = 11){
@@ -74,20 +74,7 @@ if (keyboard_check_released(ord('S')))
         image_speed = 0;
         image_index = 9;
     }
-
-//Variable for drawing the inventory
-if(keyboard_check_pressed(vk_tab))
-    {
-        if(i_showInv==true)
-        {
-            i_showInv=false;
-        }
-        else if(i_showInv==false)
-        {
-            i_showInv=true;
-        }
-    }    
-
+    
 //Handles sword attack on mouse click spriting
 if (mouse_check_button(mb_left))
     {
