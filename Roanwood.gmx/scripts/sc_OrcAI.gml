@@ -8,7 +8,7 @@ if instance_exists(o_Player)
     //moves toward player at a speed of 5 pixels per step if the player is less than 40 pixels away
     if (distance_to_object(o_Player) < 80)
     {
-        mp_potential_step_object(playerLoc.x, playerLoc.y, 5, o_Bush);
+        mp_potential_step_object(playerLoc.x, playerLoc.y, 5, o_TreeA);
         if(playerLoc.x > self.x)
         {
             // Player to the right of the orc

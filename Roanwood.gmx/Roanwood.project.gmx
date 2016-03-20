@@ -32,6 +32,13 @@
       <sprite>sprites\s_Enemy</sprite>
       <sprite>sprites\s_Boar</sprite>
     </sprites>
+    <sprites name="Gui">
+      <sprites name="Inventory">
+        <sprite>sprites\s_InvLog</sprite>
+        <sprite>sprites\s_InvRock</sprite>
+      </sprites>
+      <sprite>sprites\s_HotBar</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\b_GroundGrassB</background>
@@ -66,6 +73,9 @@
     <script>scripts\sc_BoulderBreak.gml</script>
     <script>scripts\sc_TreeBreak.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\f_InvFont</font>
+  </fonts>
   <objects name="objects">
     <object>objects\o_Player</object>
     <object>objects\o_Enemy</object>
