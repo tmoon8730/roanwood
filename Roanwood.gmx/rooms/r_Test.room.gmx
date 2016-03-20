@@ -51,7 +51,6 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="o_TreeB" x="1088" y="192" name="inst_3FF1758E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_Player" x="448" y="256" name="inst_1549505F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_Box" x="224" y="160" name="inst_E419F632" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_Box" x="224" y="256" name="inst_725D263D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -103,12 +102,6 @@
     <instance objName="o_Enemy" x="1728" y="1472" name="inst_B6EEDE2F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_Enemy" x="1472" y="1600" name="inst_0DF23FA8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_Enemy" x="1568" y="1472" name="inst_1BB7F480" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_TreeB" x="928" y="192" name="inst_83D43682" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_TreeB" x="704" y="160" name="inst_43E4293C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_TreeB" x="896" y="352" name="inst_DB7DCFEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_Log" x="608" y="320" name="inst_6C0DF720" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_Log" x="608" y="384" name="inst_FA0E3EE8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="o_Log" x="608" y="448" name="inst_3D8D9F01" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="b_GroundGrassB" x="0" y="0" w="50" h="50" xo="0" yo="0" id="10000001" name="inst_96209A8C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

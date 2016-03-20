@@ -12,11 +12,7 @@
         <sprite>sprites\s_GrassA</sprite>
         <sprite>sprites\s_GrassB</sprite>
       </sprites>
-      <sprites name="Trees">
-        <sprite>sprites\s_TreeA</sprite>
-        <sprite>sprites\s_TreeB</sprite>
-        <sprite>sprites\s_Log</sprite>
-      </sprites>
+      <sprite>sprites\s_TreeA</sprite>
     </sprites>
     <sprites name="Player">
       <sprite>sprites\s_PlayerIdle</sprite>
@@ -66,6 +62,7 @@
     </scripts>
   </scripts>
   <objects name="objects">
+    <object>objects\o_TreeA</object>
     <object>objects\o_Player</object>
     <object>objects\o_Box</object>
     <object>objects\o_Enemy</object>
@@ -77,11 +74,6 @@
       <object>objects\o_Loot</object>
     </objects>
     <object>objects\o_Boar</object>
-    <objects name="Trees">
-      <object>objects\o_TreeA</object>
-      <object>objects\o_TreeB</object>
-      <object>objects\o_Log</object>
-    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_Test</room>
