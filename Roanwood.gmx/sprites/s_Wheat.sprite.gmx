@@ -7,10 +7,10 @@
   <coltolerance>0</coltolerance>
   <sepmasks>0</sepmasks>
   <bboxmode>0</bboxmode>
-  <bbox_left>3</bbox_left>
-  <bbox_right>54</bbox_right>
-  <bbox_top>6</bbox_top>
-  <bbox_bottom>56</bbox_bottom>
+  <bbox_left>18</bbox_left>
+  <bbox_right>49</bbox_right>
+  <bbox_top>13</bbox_top>
+  <bbox_bottom>44</bbox_bottom>
   <HTile>0</HTile>
   <VTile>0</VTile>
   <TextureGroups>
@@ -20,6 +20,6 @@
   <width>64</width>
   <height>64</height>
   <frames>
-    <frame index="0">images\s_InvSeeds_0.png</frame>
+    <frame index="0">images\s_Wheat_0.png</frame>
   </frames>
 </sprite>

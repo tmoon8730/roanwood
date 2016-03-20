@@ -92,7 +92,26 @@ if(keyboard_check_pressed(vk_tab))
 if (mouse_check_button(mb_left))
     {
         speed = 0;
-        sprite_index = s_PlayerAttack;
+        if(global.p_face == "up")
+            {
+                sprite_index = s_PlayerAttack;
+                image_index = 2;
+            }
+            if(global.p_face = "down")
+            {
+                sprite_index = s_PlayerAttack;
+                image_index = 3;
+            }
+            if(global.p_face = "right")
+            {
+                sprite_index = s_PlayerAttack;
+                image_index = 1;
+            }
+            if(global.p_face = "left")
+            {
+                sprite_index = s_PlayerAttack;
+                image_index = 0;
+            }
     }
 if(mouse_check_button_released(mb_left))
     {

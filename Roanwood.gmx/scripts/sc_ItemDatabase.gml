@@ -19,9 +19,9 @@ global.items[2,1] = "This is a test3"       //Desc
 global.items[2,2] = s_InvSeeds                       //Type (Item, Potion, Weapon)
 global.items[2,3] = 3                       //Price
 
-global.items[3,0] = "Wheat"       //Name
+global.items[3,0] = "Carrot"       //Name
 global.items[3,1] = "This is a test3"       //Desc
-global.items[3,2] = s_InvWheat                       //Type (Item, Potion, Weapon)
+global.items[3,2] = s_InvCarrot                       //Type (Item, Potion, Weapon)
 global.items[3,3] = 4                       //Price
 
 //********\\
