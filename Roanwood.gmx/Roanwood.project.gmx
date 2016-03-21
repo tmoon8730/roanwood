@@ -16,6 +16,12 @@
       <sprite>sprites\s_Boulder</sprite>
       <sprite>sprites\s_Rock</sprite>
       <sprite>sprites\s_Log</sprite>
+      <sprites name="Buildings">
+        <sprite>sprites\s_BuildingA</sprite>
+        <sprite>sprites\s_BuidlingB</sprite>
+        <sprite>sprites\s_BuildingAHolo</sprite>
+        <sprite>sprites\S_BuildingBHolo</sprite>
+      </sprites>
     </sprites>
     <sprites name="Player">
       <sprite>sprites\s_PlayerIdle</sprite>
@@ -27,6 +33,8 @@
       <sprite>sprites\s_EmeraldRing</sprite>
       <sprite>sprites\s_RubyRing</sprite>
       <sprite>sprites\s_GoldBag</sprite>
+      <sprite>sprites\s_InvRing</sprite>
+      <sprite>sprites\s_InvGold</sprite>
     </sprites>
     <sprites name="Enemies">
       <sprite>sprites\s_Enemy</sprite>
@@ -38,6 +46,14 @@
         <sprite>sprites\s_InvRock</sprite>
       </sprites>
       <sprite>sprites\s_HotBar</sprite>
+    </sprites>
+    <sprites name="Farm">
+      <sprite>sprites\s_Bed</sprite>
+      <sprite>sprites\s_InvBed</sprite>
+      <sprite>sprites\s_HoloBed</sprite>
+      <sprite>sprites\s_InvSeeds</sprite>
+      <sprite>sprites\s_Wheat</sprite>
+      <sprite>sprites\s_InvCarrot</sprite>
     </sprites>
   </sprites>
   <backgrounds name="background">
@@ -93,6 +109,10 @@
       <object>objects\o_Boulder</object>
       <object>objects\o_Rock</object>
       <object>objects\o_Log</object>
+    </objects>
+    <object>objects\o_BedItem</object>
+    <objects name="Farm">
+      <object>objects\o_Bed</object>
     </objects>
   </objects>
   <rooms name="rooms">

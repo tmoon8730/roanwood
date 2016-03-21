@@ -94,6 +94,7 @@
     <instance objName="o_TreeA" x="928" y="32" name="inst_27087AC3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_Boulder" x="608" y="352" name="inst_7251D63E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="o_Boulder" x="480" y="448" name="inst_E9E26C83" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="o_BedItem" x="416" y="160" name="inst_53CB0628" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="b_GroundGrassB" x="0" y="0" w="50" h="50" xo="0" yo="0" id="10000001" name="inst_96209A8C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
